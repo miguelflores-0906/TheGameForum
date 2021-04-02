@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="loginstyles.css">
+		<script src="loginscripts.js"></script>
 	</head>
 
 	<body>
@@ -17,8 +18,8 @@
 			<button type="button" id="login">L O G I N</button>
 
 			<p id="forget">
-				<a href="https://youtube.com" target="_blank">Forgot your password?</a>    |    
-				<a href="http://www.youtube.com" target="_blank">Sign Up</a>
+				<a href="#" target="_blank">Forgot your password?</a>    |    
+				<a href="#" target="_blank">Sign Up</a>
 			</p>
 
 		</div>
@@ -32,6 +33,27 @@
 			<label for="user-signup" class="u-signuptxt">Username</label>
 			<input type="text" class="u-signup" name="user-signup">
 
+			<label for="password-signup" class="pw-signuptxt">Password</label>
+			<input type="password" class="pw-signup" name="password-signup">
+
+			<label for="cpass-signup" class="cpw-signuptxt">Confirm Password</label>
+			<input type="password" class="cpw-signup" name="cpass-signup">
+
+			<p class="birthdatetxt">Birthdate</p>
+
+			<form class = "container">
+				<SELECT id ="year" name = "yyyy" onchange="change_year(this)">
+				</SELECT>
+				<SELECT  id ="month" name = "mm" onchange="change_month(this)">
+				</SELECT>
+				<SELECT id ="day" name = "dd" >
+				</SELECT>
+			</form>
+
+			<button type="button" id="signup-butt">Sign Up</button>
+
+			<a href="#" id="cancel">Cancel</a>
+			
 	</body>
 
 </html>

@@ -215,3 +215,166 @@ body {
 	font-family: 'Poppins', sans-serif;
 	color: #e5e5e5;
 }
+
+.pw-signuptxt {
+	font-family: 'Poppins', sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	color: #e5e5e5;
+
+	position: absolute;
+	width: 237px;
+	height: 25px;
+	left: 813px;
+	top: 385px;
+}
+
+.pw-signup {
+	position: absolute;
+	width: 409px;
+	height: 47px;
+	left: 797px;
+	top: 410px;
+
+	background: #343434;
+	border-radius: 5px;
+	border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #e5e5e5;
+}
+
+.cpw-signuptxt {
+	font-family: 'Poppins', sans-serif; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+	color: #e5e5e5;
+
+
+	position: absolute;
+	width: 237px;
+	height: 25px;
+	left: 813px;
+	top: 463px;
+}
+
+.cpw-signup {
+	position: absolute;
+	width: 409px;
+	height: 47px;
+	left: 797px;
+	top: 488px;
+
+	background: #343434;
+	border-radius: 5px;
+	border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #e5e5e5;
+}
+
+.birthdatetxt {
+	position: absolute;
+	width: 237px;
+	height: 25px;
+	left: 813px;
+	top: 553px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 27px;
+
+	color: #E5E5E5;
+}
+
+#year {
+	position: absolute;
+	width: 83px;
+	height: 47px;
+	left: 817px;
+	top: 600px;
+
+	background: #343434;
+	border-radius: 5px;
+	color: #e5e5e5;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#month {
+	position: absolute;
+	width: 134px;
+	height: 47px;
+	left: 942px;
+	top: 600px;
+	
+	background: #343434;
+	border-radius: 5px;
+	color: #e5e5e5;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#day {
+	position: absolute;
+	width: 67px;
+	height: 47px;
+	left: 1118px;
+	top: 600px;
+
+	background: #343434;
+	border-radius: 5px;
+	color: #e5e5e5;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#signup-butt {
+	position: absolute;
+	width: 218px;
+	height: 43px;
+	left: 900px;
+	top: 685px;
+
+	background: #00B0FF;
+	border-radius: 10px;
+	border: none;
+	color: #e5e5e5;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#signup-butt:hover {
+	background: #0091ea;
+}
+
+#cancel {
+	position: absolute;
+	width: 237px;
+	height: 25px;
+	left: 979px;
+	top: 730px;
+	
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 21px;
+	
+	color: #707070;
+	text-decoration: none;
+}
+
+#cancel:hover {
+	color: #e5e5e5;
+}
