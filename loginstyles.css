@@ -96,6 +96,11 @@ body {
 	background: #0091ea;
 }
 
+#login a {
+	text-decoration: none;
+	color: #e5e5e5;
+}
+
 #forget {
 	position: absolute;
 	width: 363px;
