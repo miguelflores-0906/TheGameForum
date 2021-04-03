@@ -303,6 +303,8 @@ body {
 	height: 47px;
 	left: 797px;
 	top: 600px;
+	padding-left: 10px;
+	padding-right: 10px;
 
 	background: #343434;
 	border-radius: 5px;
