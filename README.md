@@ -5,3 +5,5 @@ This is a project made by Justin Dy, Miguel Flores, and Eugene Quiambao in parti
 TheGameForum is as what the name suggests a forum for games.
 There is not much more I can add here but that.
 Please go easy on us, we are novice web developers.
+
+justin dy
