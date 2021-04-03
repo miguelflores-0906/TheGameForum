@@ -18,7 +18,7 @@
 			<label for="password" class="pwtxt">Password</label>
 			<input type="password" class="pw" name="password">
 
-			<button type="button" id="login">L O G I N</button>
+			<button type="button" id="login"><a href="profile.html">L O G I N</a></button>
 
 			<p id="forget">
 				<a href="#" target="_blank">Forgot your password?</a>    |    
@@ -44,14 +44,7 @@
 
 			<p class="birthdatetxt">Birthdate</p>
 
-			<form class = "container">
-				<SELECT id ="year" name = "yyyy" onchange="change_year(this)">
-				</SELECT>
-				<SELECT  id ="month" name = "mm" onchange="change_month(this)">
-				</SELECT>
-				<SELECT id ="day" name = "dd" >
-				</SELECT>
-			</form>
+			<input type="date" id="login-date" name="birthdate" value="2020-01-01" max="2021-03-04">
 
 			<button type="button" id="signup-butt">Sign Up</button>
 

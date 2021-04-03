@@ -54,20 +54,6 @@ body {
     text-align: center;
 }
 
-.contrib {
-    margin: 10px 120px;
-}
-
-.contrib a {
-    color: #707070;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.contrib a:hover {
-    color: #e5e5e5;
-}
-
 #gamer-score-box {
     margin: 10px;
     border-radius: 25px;
@@ -83,8 +69,8 @@ body {
 #gamer-score {
     border-radius: 50%;
     border: solid 2px #0091ea;
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -141,15 +127,36 @@ body {
 
 @media only screen and (min-width: 1280px) {
     .main {
-        float: left;
+        margin: 20px;
+    }
+
+    .img-user {
+        width: 250px;
+        height: 250px;
+    }
+
+    .main h2 {
+        font-size: 50px;
     }
 
     #gamer-score-box {
-        float: right;
+        /* float: right; */
+        width: 30%;
+        margin-left: 20px;
+    }
+
+    #gamer-score h1  {
+        font-size: 50px;
+    }
+
+    #gamer-score h2 {
+        font-size: 32px;
     }
 
     #top {
+        width: 65%;
         float: right;
-        width: 50%;
+        margin-top: -175px;
+        margin-right: 20px;
     }
 }
