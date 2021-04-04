@@ -21,6 +21,7 @@ body {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
     position: fixed;
+    z-index: 5;
 }
 
 .img{
@@ -91,11 +92,20 @@ h2{
     height: 80px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     position: fixed;
+    top: 0;
+}
+
+#header h1 {
+    margin: auto;
+    margin-left: 900px;
+    font-size: 64px;
+    margin-top: -5px;
+    /* float: center; */
 }
 
 .new-post {
     float: right;
-    margin-top: -40px;
+    margin-top: -85px;
     margin-right: 15px;
     width: 60px;
     height: 60px;
@@ -103,4 +113,42 @@ h2{
     background-color: #00B0FF;
     color: #e5e5e5;
     border: none;
+    font-size: 24px;
+}
+
+.new-post:hover {
+	background: #0091ea;
+}
+
+.board {
+    margin-left: 342px;
+    margin-top: 90px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #121212;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+.grid-item {
+    background-color: #121212;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.grid-item a:hover {
+    filter: brightness(120%);
+}
+
+.dashImage{
+    width: 313px;
+    height: 253px;
+    border-radius: 25px;
 }
