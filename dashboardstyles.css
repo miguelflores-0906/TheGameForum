@@ -10,6 +10,7 @@ body{
 }
 
 .leftSide{
+    float: left;
     width: 342px;
     height: 1024px;
     left: 0px;
@@ -78,5 +79,29 @@ h2{
     top: 869px;
 
     background: #343434;
+    border-radius: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #121212;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+.grid-item {
+    background-color: #121212;
+    border: none;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.dashImage{
+    width: 313px;
+    height: 253px;
     border-radius: 25px;
 }
