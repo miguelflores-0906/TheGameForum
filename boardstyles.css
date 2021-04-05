@@ -11,6 +11,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
 .leftSide{
     float: left;
     width: 342px;

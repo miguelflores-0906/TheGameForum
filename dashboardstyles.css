@@ -9,6 +9,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
 .leftSide{
     float: left;
     width: 342px;
@@ -103,6 +108,15 @@ h2{
     padding: 10px;
     font-size: 30px;
     text-align: center;
+}
+
+.grid-item a {
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+.grid-item a:hover img {
+    filter: brightness(120%);
 }
 
 .dashImage{
