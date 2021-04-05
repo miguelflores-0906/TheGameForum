@@ -26,7 +26,10 @@ function addReply(event)
     const replyDiv = document.createElement("div");
     replyDiv.classList.add("reply");
 
-    const newReply = document.createElement("input");
+    const newReply = document.createElement("textarea");
+    newReply.cols = "107";
+    newReply.rows = "10";
+    newReply.placeholder = "Text";
     newReply.classList.add("replyText");
     replyDiv.appendChild(newReply);
 
@@ -46,9 +49,14 @@ function addReply(event)
     replyDiv.appendChild(replyDislikeButton);
 
     const deleteReply = document.createElement("button");
-    deleteReply.innerHTML = 'delete';
+    deleteReply.innerHTML = 'DELETE';
     deleteReply.classList.add("deleteReply");
     replyDiv.appendChild(deleteReply);
+
+    const replyUsername = document.createElement("p");
+    replyUsername.innerHTML = 'replier';
+    replyUsername.classList.add("replyUsername");
+    replyDiv.appendChild(replyUsername);
 
     replyList.appendChild(replyDiv);
 }

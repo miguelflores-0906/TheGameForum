@@ -4,20 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="threadstyles.css">
     <title>thread</title>
 </head>
 <body>
+    <div class="leftSide">
+        <div class = "img">
+            <img class = "pfp" src = "./graphics/eugene.jpg">
+            <h2>
+                EUGENE
+            </h2>
+
+        </div>
+        
+
+        <button type="button" class = "lsButton" id="dashboard">DASHBOARD</button>
+        <button type="button" class = "lsButton" id="profile">PROFILE</button>
+        <button type="button" class = "lsButton" id="random">RANDOM</button>
+        <button type="button" class = "lsButton" id="logout">LOGOUT</button>
+        <input type = "text" class = "searchBar">
+        <button type="button" class = "lsButton" id="search">SEARCH</button>
+    </div>
+    <div id="top">
+        <button id="back-button">BACK</button>
+    </div>
     <div class="op">
         <header>
-            <input type="text" id="title">
+            <input type="text" id="title" placeholder="Title">
         </header>
-        <input type="text" id="body">
+        <textarea name="body" id="body" cols="107" rows="10" placeholder="Text"></textarea>
         <button id="like-button">+</button>
         <p id="likes">0</p>
         <button id="dislike-button">-</button>
-        <button id="reply-button">reply</button>
+        <button id="reply-button">REPLY</button>
+        <p id="op-username">username</p>
     </div>
-    <ul id="reply-list"></ul>
+    <div id="reply-container">
+        <ul id="reply-list"></ul>
+    </div>
+    
     <script src="threadscripts.js"></script>
 </body>
 </html>
