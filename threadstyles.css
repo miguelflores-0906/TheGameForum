@@ -247,6 +247,17 @@ h2{
     margin-top: 30px;
   }
 
+  .replyTo
+  {
+    border: none;
+    padding-top: 31px;
+    margin-left: 37px;
+    font-size: 20px;
+    color: #E5E5E5;
+
+
+  }
+
   .replyText
   {
     background-color: #242424;
@@ -291,5 +302,8 @@ h2{
       color: #E5E5E5;
   }
 
-
+.replyLikeButton:hover, .replyDislikeButton:hover, #like-button:hover, #dislike-button:hover
+{
+    background: #bdbdbd;
+}
 

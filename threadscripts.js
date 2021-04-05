@@ -26,6 +26,11 @@ function addReply(event)
     const replyDiv = document.createElement("div");
     replyDiv.classList.add("reply");
 
+    const replyTo = document.createElement("p");
+    replyTo.innerHTML = 'reply to OP';
+    replyTo.classList.add("replyTo");
+    replyDiv.appendChild(replyTo);
+
     const newReply = document.createElement("textarea");
     newReply.cols = "107";
     newReply.rows = "10";
