@@ -156,4 +156,5 @@ h2{
     width: 313px;
     height: 253px;
     border-radius: 25px;
+    object-fit: cover;
 }
