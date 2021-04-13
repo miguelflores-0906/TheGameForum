@@ -226,6 +226,7 @@ h2{
       line-height: 36px;
       text-align: center;
       color: #E5E5E5;
+      text-decoration: none; 
   }
 
   #reply-container
