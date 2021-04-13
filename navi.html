@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="threadstyles.css">
+    <title>thread</title>
+</head>
+<body>
+    <div class="leftSide">
+        <div class = "img">
+            <img class = "pfp" src = "./graphics/eugene.jpg">
+            <h2>
+                EUGENE
+            </h2>
+
+        </div>
+        
+        
+        <button type="button" class = "lsButton" id="dashboard"><a href="dashboard.html">DASHBOARD</a></button>
+
+        
+        <button type="button" class = "lsButton" id="profile">PROFILE</button>
+
+        <button type="button" class = "lsButton" id="random"><a href="thread.html">RANDOM</a></button>
+
+        
+            <button type="button" class = "lsButton" id="logout"><a href="login.html">LOGOUT</a></button>
+
+        </a>
+        <input type = "text" class = "searchBar">
+        <button type="button" class = "lsButton" id="search">SEARCH</button>
+    </div>
+    <div id="top">
+        <button id="back-button">
+            <a href="#" onclick="history.go(-1)">
+                BACK
+            </a>
+        </button>
+    </div>
+
+    <div class="op">
+        <header>
+            <!-- <input type="text" id="title" placeholder="Title"> -->
+            <h1 id="title">Natus Vincere Out of EPL</h1>
+        </header>
+        <!-- <textarea name="body" id="body" cols="107" rows="10" placeholder="Text"></textarea> -->
+        <p id="body">NaVi Eliminated from ESL ProLeague</p>
+        <button id="like-button">+</button>
+        <p id="likes">0</p>
+        <button id="dislike-button">-</button>
+        <button id="reply-button">REPLY</button>
+        <a id="op-username" href="profile.html">SolarNarwhal_</a>
+    </div>
+    <div id="reply-container">
+        <ul id="reply-list"></ul>
+    </div>
+    
+    <script src="threadscripts.js"></script>
+</body>
+</html>
